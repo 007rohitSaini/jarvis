@@ -14,8 +14,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import requests
 from nasa import api
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="0de0f3fe8683424f857975d9bf27136c",
-                                                           client_secret="32213c3faee54a27af3dfbdb074366f8"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=clientid,
+                                                           client_secret=))
 app_id = "EJTJ3V-H2HUVHK2KQ"
 
 # Instance of wolf ram alpha
